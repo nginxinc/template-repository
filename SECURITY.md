@@ -1,8 +1,8 @@
 # Security Policy
 
-## Supported Versions
+## Latest Versions
 
-We advise users to run the most recent release and/or stable commit of the {{REPOSITORY_NAME}}, and we issue software updates to the most recent release. We provide technical support for F5 customers who are using the most recent version of the {{REPOSITORY_NAME}}, and any version released within two years of the current release.
+We advise users to run or update to the most recent release of the {{REPOSITORY_NAME}}. Older versions of the {{REPOSITORY_NAME}} may not have all enhancements and/or bug fixes applied to them.
 
 ## Reporting a Vulnerability
 
