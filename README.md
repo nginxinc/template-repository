@@ -1,15 +1,6 @@
+[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
+
 # NGINX Template Repository
-
-## How do I use this template?
-
-**DO NOT FORK** -- this template is meant to be used from the **[`Use this template`](https://github.com/nginxinc/template-repository/generate)** feature.
-
-1. Click on **[`Use this template`](https://github.com/nginxinc/template-repository/generate)**
-2. Give a name to your project
-3. Wait until the first run of CI finishes (Github Actions will process the template and commit to your new repo)
-4. Clone your new project and happy coding!
-
-**NOTE**: **WAIT** until the first CI run on GitHub Actions before cloning your new project.
 
 ## What is included on this template?
 
@@ -22,13 +13,30 @@ This template includes all the scaffolding you need to get started on a standard
 - Support guidelines
 - Security guidelines for reporting major vulnerabilities
 - NGINX Code of Conduct
-- README placeholder
-- Changelog placeholder
-- Codeowners placeholder
+- README placeholder. How you structure the README is up to you (although the template provides placeholder sections), but you will need to include:
+  - A [repostatus](https://www.repostatus.org/) badge
+  - An explicit link back to the LICENSE
+  - An up to date copyright notice
+- Changelog placeholder. (Optional -- A changelog is recommended, but it is not required and can diverge in format from the placeholder here included.)
+- Codeowners placeholder. (Optional -- Codeowners is a useful GitHub feature, but not all repositories require them.)
+
+## How do I use this template?
+
+**DO NOT FORK** -- this template is meant to be used from the **[`Use this template`](https://github.com/nginxinc/template-repository/generate)** feature.
+
+1. Click on **[`Use this template`](https://github.com/nginxinc/template-repository/generate)**
+2. Give a name to your project
+3. Wait until the first run of CI finishes (GitHub Actions will process the template and commit to your new repo)
+4. Clone your new project and tweak any of the placeholders if necessary
+5. Happy coding!
+
+**NOTE**: **WAIT** until the first CI run on GitHub Actions finishes before cloning your new project.
 
 ---
 
 <!--  DELETE THE LINES ABOVE THIS AND WRITE YOUR PROJECT README BELOW -- PLACEHOLDER SECTIONS HAVE BEEN INCLUDED FOR YOUR CONVENIENCE -->
+
+[![Project Status: Concept – Minimal or no implementation has been done yet, or the repository is only intended to be a limited example, demo, or proof-of-concept.](https://www.repostatus.org/badges/latest/concept.svg)](https://www.repostatus.org/#concept)
 
 # {{REPOSITORY_NAME}}
 
