@@ -14,7 +14,7 @@ This isn't the right place to get support for NGINX specific questions, but the 
 
 We have a community [Slack](https://nginxcommunity.slack.com/)!
 
-If you are not a member click [here](https://community.nginx.org/joinslack) to sign up (and let us know if the link does not seem to be working!)
+If you are not a member, click [here](https://community.nginx.org/joinslack) to sign up (and let us know if the link does not seem to be working!)
 
 Once you join, check out the `#beginner-questions` and `nginx-users` channels :)
 
@@ -27,6 +27,10 @@ For a comprehensive list of admin and deployment guides for all NGINX products, 
 ### Mailing List
 
 Want to get in touch with the NGINX development team directly? Try using the relevant mailing list found at <https://mailman.nginx.org/mailman3/lists/>!
+
+## Commercial Support
+
+Commercial support may be avilable. Please check for information here <add url>
 
 ## Contributing
 
