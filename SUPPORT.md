@@ -14,7 +14,7 @@ This isn't the right place to get support for NGINX specific questions, but the 
 
 We have a community [Slack](https://nginxcommunity.slack.com/)!
 
-If you are not a member click [here](https://community.nginx.org/joinslack) to sign up (and let us know if the link does not seem to be working!)
+If you are not a member, click [here](https://community.nginx.org/joinslack) to sign up (and let us know if the link does not seem to be working!)
 
 Once you join, check out the `#beginner-questions` and `nginx-users` channels :)
 
@@ -31,3 +31,7 @@ Want to get in touch with the NGINX development team directly? Try using the rel
 ## Contributing
 
 Please see the [contributing guide](https://github.com/{{REPOSITORY_OWNER}}/{{REPOSITORY_URL}}/blob/main/CONTRIBUTING.md) for guidelines on how to best contribute to this project.
+
+## Commercial Support
+
+Commercial support for this project may be available. Please get in touch with [NGINX sales](https://www.nginx.com/contact-sales/) or check your contract details for more info!

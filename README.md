@@ -1,4 +1,6 @@
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
+[![Community Support](https://badgen.net/badge/support/community/cyan?icon=awesome)](https://github.com/nginxinc/{{REPOSITORY_OWNER}}/{{REPOSITORY_URL}}/blob/main/SUPPORT.md)
+<!-- [![Commercial Support](https://badgen.net/badge/support/commercial/cyan?icon=awesome)](<Insert URL>) -->
 
 # NGINX Template Repository
 
@@ -15,7 +17,8 @@ This template includes all the scaffolding you need to get started on a standard
 - NGINX Code of Conduct
 - README placeholder. How you structure the README is up to you (although the template provides placeholder sections), but you will need to include:
   - A [repostatus](https://www.repostatus.org/) badge
-  - An explicit link back to the LICENSE
+  - A community and commercial support badge. Include the latter -- and replace the URL placeholder with the relevant support URL -- if this repository contains a commercially supported project. You can find a commented out example below the community badge in this README.
+  - An explicit link back to the [Apache License 2.0](https://github.com/nginxinc/template-repository/blob/main/LICENSE)
   - An up to date copyright notice
 - Changelog placeholder. (Optional -- A changelog is recommended, but it is not required and can diverge in format from the placeholder here included.)
 - Codeowners placeholder. (Optional -- Codeowners is a useful GitHub feature, but not all repositories require them.)
@@ -27,7 +30,7 @@ This template includes all the scaffolding you need to get started on a standard
 1. Click on **[`Use this template`](https://github.com/nginxinc/template-repository/generate)**
 2. Give a name to your project
 3. Wait until the first run of CI finishes (GitHub Actions will process the template and commit to your new repo)
-4. Clone your new project and tweak any of the placeholders if necessary
+4. Clone your new project and tweak any of the placeholders if necessary. Pay special attention to the README!
 5. Happy coding!
 
 **NOTE**: **WAIT** until the first CI run on GitHub Actions finishes before cloning your new project.
