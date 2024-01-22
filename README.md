@@ -63,4 +63,4 @@ Please see the [contributing guide](https://github.com/{{REPOSITORY_OWNER}}/{{RE
 
 [Apache License, Version 2.0](https://github.com/{{REPOSITORY_OWNER}}/{{REPOSITORY_URL}}/blob/main/LICENSE)
 
-&copy; [F5, Inc.](https://www.f5.com/) 2023
+&copy; [F5, Inc.](https://www.f5.com/) 2024
