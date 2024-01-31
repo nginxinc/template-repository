@@ -1,6 +1,7 @@
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 [![Community Support](https://badgen.net/badge/support/community/cyan?icon=awesome)](https://github.com/nginxinc/{{REPOSITORY_OWNER}}/{{REPOSITORY_URL}}/blob/main/SUPPORT.md)
 <!-- [![Commercial Support](https://badgen.net/badge/support/commercial/cyan?icon=awesome)](<Insert URL>) -->
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/{{REPOSITORY_OWNER}}/{{REPOSITORY_URL}}/badge)](https://securityscorecards.dev/viewer/?uri=github.com/{{REPOSITORY_OWNER}}/{{REPOSITORY_URL}})
 
 # NGINX Template Repository
 
@@ -15,9 +16,11 @@ This template includes all the scaffolding you need to get started on an OSS rep
 - Support guidelines
 - Security guidelines for reporting major vulnerabilities
 - NGINX Code of Conduct
+- OSSF Scorecard GitHub Action
 - README placeholder. How you structure the README is up to you (although the template provides placeholder sections), but you will need to include:
   - A [repostatus](https://www.repostatus.org/) badge
   - A community and commercial support badge. Include the latter -- and replace the URL placeholder with the relevant support URL -- if this repository contains a commercially supported project. You can find a commented out example below the community badge in this README.
+  - An OSSF Scorecard badge
   - An explicit link back to the [Apache License 2.0](https://github.com/nginxinc/template-repository/blob/main/LICENSE)
   - An up to date copyright notice
 - Changelog placeholder. (Optional -- A changelog is recommended, but it is not required and can diverge in format from the placeholder here included.)

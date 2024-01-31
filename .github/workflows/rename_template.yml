@@ -1,11 +1,8 @@
 ---
 name: Rename the template
-
 on:
   push:
-
 permissions: write-all
-
 jobs:
   rename-template:
     if: ${{ !contains(github.repository, 'template') }}
