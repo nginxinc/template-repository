@@ -6,7 +6,7 @@
 
 ## What is included on this template?
 
-This template includes all the scaffolding you need to get started on a standards compliant NGINX repository:
+This template includes all the scaffolding you need to get started on an OSS repository that meets the required NGINX criteria:
 
 - Standard license for NGINX OSS projects
 - Standard `.gitignore` with minimal defaults
@@ -21,7 +21,9 @@ This template includes all the scaffolding you need to get started on a standard
   - An explicit link back to the [Apache License 2.0](https://github.com/nginxinc/template-repository/blob/main/LICENSE)
   - An up to date copyright notice
 - Changelog placeholder. (Optional -- A changelog is recommended, but it is not required and can diverge in format from the placeholder here included.)
-- Codeowners placeholder. (Optional -- Codeowners is a useful GitHub feature, but not all repositories require them.)
+- Codeowners placeholder. (Optional -- Codeowners is a useful feature, but not all repositories require them.)
+
+**Note:** If you created a public repository before this template became available (or you didn't know about it's existence), please include any missing files found here in your repository. There is no need if you have a private repository, but we still recommend you include all of the above scaffolding should the repository ever become public.
 
 ## How do I use this template?
 
