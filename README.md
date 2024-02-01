@@ -1,7 +1,7 @@
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
-[![Community Support](https://badgen.net/badge/support/community/cyan?icon=awesome)](https://github.com/nginxinc/{{REPOSITORY_OWNER}}/{{REPOSITORY_URL}}/blob/main/SUPPORT.md)
+[![Community Support](https://badgen.net/badge/support/community/cyan?icon=awesome)](https://github.com/nginxinc/template-repository/blob/main/SUPPORT.md)
 <!-- [![Commercial Support](https://badgen.net/badge/support/commercial/cyan?icon=awesome)](<Insert URL>) -->
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/{{REPOSITORY_OWNER}}/{{REPOSITORY_URL}}/badge)](https://securityscorecards.dev/viewer/?uri=github.com/{{REPOSITORY_OWNER}}/{{REPOSITORY_URL}})
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/nginxinc/template-repository/badge)](https://securityscorecards.dev/viewer/?uri=github.com/nginxinc/template-repository)
 
 # NGINX Template Repository
 
@@ -45,6 +45,9 @@ This template includes all the scaffolding you need to get started on an OSS rep
 <!--  DELETE THE LINES ABOVE THIS AND WRITE YOUR PROJECT README BELOW -- PLACEHOLDER SECTIONS HAVE BEEN INCLUDED FOR YOUR CONVENIENCE -->
 
 [![Project Status: Concept – Minimal or no implementation has been done yet, or the repository is only intended to be a limited example, demo, or proof-of-concept.](https://www.repostatus.org/badges/latest/concept.svg)](https://www.repostatus.org/#concept)
+[![Community Support](https://badgen.net/badge/support/community/cyan?icon=awesome)](https://github.com/{{REPOSITORY_OWNER}}/{{REPOSITORY_URL}}/blob/main/SUPPORT.md)
+<!-- [![Commercial Support](https://badgen.net/badge/support/commercial/cyan?icon=awesome)](<Insert URL>) -->
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/{{REPOSITORY_OWNER}}/{{REPOSITORY_URL}}/badge)](https://securityscorecards.dev/viewer/?uri=github.com/{{REPOSITORY_OWNER}}/{{REPOSITORY_URL}})
 
 # {{REPOSITORY_NAME}}
 

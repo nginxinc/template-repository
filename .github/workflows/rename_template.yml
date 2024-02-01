@@ -2,14 +2,16 @@
 name: Rename the template
 on:
   push:
-permissions: write-all
+permissions: read-all
 jobs:
   rename-template:
     if: ${{ !contains(github.repository, 'template') }}
     runs-on: ubuntu-22.04
+    permissions:
+      contents: write
     steps:
       - name: Check out the codebase
-        uses: actions/checkout@v4
+        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
 
       - name: Set $REPOSITORY_NAME
         run: echo "REPOSITORY_NAME=$(echo '${{ github.repository }}' | awk -F '/' '{print $2}' | tr '-' '_' | tr '[:upper:]' '[:lower:]')" >> $GITHUB_ENV
@@ -28,7 +30,8 @@ jobs:
           echo "Renaming the project with -a(author) ${{ env.REPOSITORY_OWNER }} -n(name) ${{ env.REPOSITORY_NAME }} -u(urlname) ${{ env.REPOSITORY_URL }}"
           .github/workflows/rename_project.sh -a ${{ env.REPOSITORY_OWNER }} -n ${{ env.REPOSITORY_NAME }} -u ${{ env.REPOSITORY_URL }}
 
-      - uses: stefanzweifel/git-auto-commit-action@v5
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@8756aa072ef5b4a080af5dc8fef36c5d586e521d # v5.0.0
         with:
           commit_message: "✅ Ready to clone and code."
           push_options: --force
