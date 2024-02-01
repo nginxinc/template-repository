@@ -1,6 +1,7 @@
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](https://github.com/nginxinc/template-repository/main/CODE_OF_CONDUCT.md)
 [![Community Support](https://badgen.net/badge/support/community/cyan?icon=awesome)](https://github.com/nginxinc/template-repository/blob/main/SUPPORT.md)
-<!-- [![Commercial Support](https://badgen.net/badge/support/commercial/cyan?icon=awesome)](<Insert URL>) -->
+
 [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/nginxinc/template-repository/badge)](https://securityscorecards.dev/viewer/?uri=github.com/nginxinc/template-repository)
 
 # NGINX Template Repository
@@ -9,22 +10,23 @@
 
 This template includes all the scaffolding you need to get started on an OSS repository that meets the required NGINX criteria:
 
-- Standard license for NGINX OSS projects
-- Standard `.gitignore` with minimal defaults
-- Issue and PR templates
-- Contributing guidelines
-- Support guidelines
-- Security guidelines for reporting major vulnerabilities
-- NGINX Code of Conduct
-- OSSF Scorecard GitHub Action
-- README placeholder. How you structure the README is up to you (although the template provides placeholder sections), but you will need to include:
+- [Apache License 2.0](https://github.com/nginxinc/template-repository/blob/main/LICENSE) (required for all NGINX OSS projects)
+- [`.gitignore`](https://github.com/nginxinc/template-repository/blob/main/.gitignore) with some minimal sensible defaults
+- [Issue](https://github.com/nginxinc/template-repository/blob/main/.github/ISSUE_TEMPLATE) and [PR](https://github.com/nginxinc/template-repository/blob/main/pull_request_template.md) templates
+- [Contributing](https://github.com/nginxinc/template-repository/blob/main/CONTRIBUTING.md) guidelines
+- [Support](https://github.com/nginxinc/template-repository/blob/main/SUPPORT.md) guidelines for either community and/or commercial support
+- [Security](https://github.com/nginxinc/template-repository/blob/main/SECURITY.md) guidelines for reporting major vulnerabilities
+- [Code of Conduct](https://github.com/nginxinc/template-repository/blob/main/CODE_OF_CONDUCT.md)
+- Open Source Security Foundation (OSSF) Scorecard [(implemented via a GitHub Action)](https://github.com/nginxinc/template-repository/blob/main/.github/workflows/ossf_scorecard.yml)
+- [README](https://github.com/nginxinc/template-repository/blob/main/README.md) placeholder. How you structure the README is up to you (although the template provides placeholder sections), but you will need to include:
   - A [repostatus](https://www.repostatus.org/) badge
-  - A community and commercial support badge. Include the latter -- and replace the URL placeholder with the relevant support URL -- if this repository contains a commercially supported project. You can find a commented out example below the community badge in this README.
-  - An OSSF Scorecard badge
+  - A contributor covenant/code of conduct badge. (Optional -- If you already have multiple badges and want to reduce clutter, simply including the actual code of conduct is enough.)
+  - A community and/or commercial support badge. Include the latter -- and replace the URL placeholder with the relevant support URL -- if this repository contains a commercially supported project. You can find a commented out example below the community badge in this README.
+  - An OSSF Scorecard badge (Optional -- Some projects will by their own nature have low scores. In such a case you might want to remove this badge!)
   - An explicit link back to the [Apache License 2.0](https://github.com/nginxinc/template-repository/blob/main/LICENSE)
   - An up to date copyright notice
-- Changelog placeholder. (Optional -- A changelog is recommended, but it is not required and can diverge in format from the placeholder here included.)
-- Codeowners placeholder. (Optional -- Codeowners is a useful feature, but not all repositories require them.)
+- [Changelog](https://github.com/nginxinc/template-repository/blob/main/CHANGELOG.md) placeholder. (Optional -- A changelog is recommended, but it is not required and can diverge in format from the placeholder here included.)
+- [Codeowners](https://github.com/nginxinc/template-repository/blob/main/.github/CODEOWNERS) placeholder. (Optional -- Codeowners is a useful feature, but not all repositories require them.)
 
 **Note:** If you created a public repository before this template became available (or you didn't know about it's existence), please include any missing files found here in your repository. There is no need if you have a private repository, but we still recommend you include all of the above scaffolding should the repository ever become public.
 
@@ -45,6 +47,7 @@ This template includes all the scaffolding you need to get started on an OSS rep
 <!--  DELETE THE LINES ABOVE THIS AND WRITE YOUR PROJECT README BELOW -- PLACEHOLDER SECTIONS HAVE BEEN INCLUDED FOR YOUR CONVENIENCE -->
 
 [![Project Status: Concept – Minimal or no implementation has been done yet, or the repository is only intended to be a limited example, demo, or proof-of-concept.](https://www.repostatus.org/badges/latest/concept.svg)](https://www.repostatus.org/#concept)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](https://github.com/{{REPOSITORY_OWNER}}/{{REPOSITORY_URL}}/main/CODE_OF_CONDUCT.md)
 [![Community Support](https://badgen.net/badge/support/community/cyan?icon=awesome)](https://github.com/{{REPOSITORY_OWNER}}/{{REPOSITORY_URL}}/blob/main/SUPPORT.md)
 <!-- [![Commercial Support](https://badgen.net/badge/support/commercial/cyan?icon=awesome)](<Insert URL>) -->
 [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/{{REPOSITORY_OWNER}}/{{REPOSITORY_URL}}/badge)](https://securityscorecards.dev/viewer/?uri=github.com/{{REPOSITORY_OWNER}}/{{REPOSITORY_URL}})
