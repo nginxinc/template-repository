@@ -29,4 +29,4 @@ done
 
 # This command runs only once on GHA!
 rm -f .github/workflows/rename_template.yml
-rm -f .github/workflows/rename_project.sh
+rm -rf .github/workflows/scripts

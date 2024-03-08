@@ -5,6 +5,7 @@ on:
 permissions: read-all
 jobs:
   rename-template:
+    name: Replace the templated variables in the repository with the newly created repository details
     if: ${{ !contains(github.repository, 'template') }}
     runs-on: ubuntu-22.04
     permissions:
@@ -28,7 +29,7 @@ jobs:
       - name: Rename the project
         run: |
           echo "Renaming the project with -a(author) ${{ env.REPOSITORY_OWNER }} -n(name) ${{ env.REPOSITORY_NAME }} -u(urlname) ${{ env.REPOSITORY_URL }}"
-          .github/workflows/rename_project.sh -a ${{ env.REPOSITORY_OWNER }} -n ${{ env.REPOSITORY_NAME }} -u ${{ env.REPOSITORY_URL }}
+          .github/workflows/scripts/rename_project.sh -a ${{ env.REPOSITORY_OWNER }} -n ${{ env.REPOSITORY_NAME }} -u ${{ env.REPOSITORY_URL }}
 
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@8756aa072ef5b4a080af5dc8fef36c5d586e521d # v5.0.0

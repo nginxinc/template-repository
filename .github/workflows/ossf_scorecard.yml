@@ -24,11 +24,11 @@ jobs:
       # Needed for GitHub OIDC token if publish_results is true
       id-token: write
       # Uncomment the permissions below if installing in a private repository.
-      contents: read
-      actions: read
-      issues: read # To allow GraphQL ListCommits to work
-      pull-requests: read # To allow GraphQL ListCommits to work
-      checks: read # To detect SAST tools
+      # contents: read
+      # actions: read
+      # issues: read # To allow GraphQL ListCommits to work
+      # pull-requests: read # To allow GraphQL ListCommits to work
+      # checks: read # To detect SAST tools
     steps:
       - name: Check out the codebase
         uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
