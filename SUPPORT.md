@@ -14,7 +14,7 @@ This isn't the right place to get support for NGINX specific questions, but the 
 
 We have a community [Slack](https://nginxcommunity.slack.com/)!
 
-If you are not a member, click [here](https://community.nginx.org/joinslack) to sign up (and let us know if the link does not seem to be working!)
+If you are not a member, click [here](https://community.nginx.org/joinslack) to sign up. (Let us know if the link does not seem to be working at <nginx-oss-community@f5.com>!)
 
 Once you join, check out the `#beginner-questions` and `nginx-users` channels :)
 
@@ -22,7 +22,7 @@ Once you join, check out the `#beginner-questions` and `nginx-users` channels :)
 
 For a comprehensive list of all NGINX directives, check out <https://nginx.org>.
 
-For a comprehensive list of admin and deployment guides for all NGINX products, check out <https://docs.nginx.com>.
+For a comprehensive list of administration and deployment guides for all NGINX products, check out <https://docs.nginx.com>.
 
 ### Mailing List
 
@@ -30,8 +30,12 @@ Want to get in touch with the NGINX development team directly? Try using the rel
 
 ## Contributing
 
-Please see the [contributing guide](https://github.com/{{REPOSITORY_OWNER}}/{{REPOSITORY_URL}}/blob/main/CONTRIBUTING.md) for guidelines on how to best contribute to this project.
+Please see the [contributing guide](/CONTRIBUTING.md) for guidelines on how to best contribute to this project.
 
-## Commercial Support
+<!-- ## Commercial Support
 
-Commercial support for this project may be available. Please get in touch with [NGINX sales](https://www.nginx.com/contact-sales/) or check your contract details for more info!
+Commercial support for this project may be available. Please get in touch with [NGINX sales](https://www.nginx.com/contact-sales/) or check your contract details for more info! -->
+
+## Community Support
+
+This project does **not** offer commercial support. Community support is offered on a best effort basis through either GitHub issues/PRs/discussions or via any of our active communities.

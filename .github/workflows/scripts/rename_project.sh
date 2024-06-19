@@ -27,6 +27,6 @@ do
   echo "Renamed $filename"
 done
 
-# This command runs only once on GHA!
+# This command runs only once on GitHub Actions!
 rm -f .github/workflows/rename_template.yml
 rm -rf .github/workflows/scripts
