@@ -9,21 +9,22 @@
 
 This template includes all the scaffolding you need to get started on an OSS repository that meets the required NGINX criteria:
 
-- [Apache License 2.0](/LICENSE) (required for all NGINX OSS projects)
-- [`.gitignore`](/.gitignore) with some minimal sensible defaults
-- [Issue](/.github/ISSUE_TEMPLATE) and [PR](/.github//pull_request_template.md) templates
-- [Contributing](/CONTRIBUTING.md) guidelines
-- [Support](/SUPPORT.md) guidelines for either community and/or commercial support (uncomment either )
-- [Security](/SECURITY.md) guidelines for reporting major vulnerabilities
-- [Code of Conduct](/CODE_OF_CONDUCT.md)
+- [Apache License 2.0](/LICENSE) (required for all NGINX OSS projects).
+- [`.gitignore`](/.gitignore) with some minimal sensible defaults.
+- [Issue](/.github/ISSUE_TEMPLATE) and [PR](/.github//pull_request_template.md) templates.
+- [Contributing](/CONTRIBUTING.md) guidelines.
+- [Support](/SUPPORT.md) guidelines for either community and/or commercial support (uncomment the commercial block if necessary).
+- [Security](/SECURITY.md) guidelines for reporting major vulnerabilities.
+- [Code of Conduct](/CODE_OF_CONDUCT.md).
+- [F5 CLA workflow](/.github/workflows/f5-cla.yml). For more details on the action please check the [F5 CLA signature datastore repository](https://github.com/f5/f5-cla-data).
 - Open Source Security Foundation (OSSF) Scorecard [(implemented via a GitHub Action)](/.github/workflows/ossf_scorecard.yml)
 - [README](/README.md) placeholder. How you structure the README is up to you (although the template provides placeholder sections), but you will need to include:
-  - A [repostatus](https://www.repostatus.org/) badge
-  - An OSSF Scorecard badge. (Optional -- Some projects will by their nature have low scores. In such a case you might want to remove this badge!)
+  - A [repostatus](https://www.repostatus.org/) badge.
+  - An OSSF Scorecard badge. (Optional -- Some projects will by their nature have low scores. In such a case you might want to remove this badge!).
   - A community and/or commercial support badge. Include the latter -- and replace the commented out badge/URL placeholder with the relevant support URL -- if this repository contains a commercially supported project. You can find a commented out example below the community badge in this README.
   - A contributor covenant/code of conduct badge. (Optional -- If you already have multiple badges and want to reduce clutter, simply including the actual code of conduct is enough!)
-  - An explicit link back to the [Apache License 2.0](/LICENSE)
-  - An up to date copyright notice
+  - An explicit link back to the [Apache License 2.0](/LICENSE).
+  - An up to date copyright notice.
 - [Changelog](/CHANGELOG.md) placeholder. (Optional -- A changelog is recommended, but it is not required and can diverge in format from the placeholder here included.)
 - [Codeowners](/.github/CODEOWNERS) placeholder. (Optional -- Codeowners is a useful feature, but not all repositories require them.)
 
