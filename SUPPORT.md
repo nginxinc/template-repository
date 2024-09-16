@@ -34,7 +34,7 @@ Please see the [contributing guide](/CONTRIBUTING.md) for guidelines on how to b
 
 <!-- ## Commercial Support
 
-Commercial support for this project may be available. Please get in touch with [NGINX sales](https://www.nginx.com/contact-sales/) or check your contract details for more info! -->
+Commercial support for this project may be available. Please get in touch with [F5 NGINX sales](https://www.f5.com/products/get-f5/) sales or check your contract details for more info! -->
 
 ## Community Support
 
