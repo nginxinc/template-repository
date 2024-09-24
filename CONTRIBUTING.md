@@ -2,15 +2,12 @@
 
 The following is a set of guidelines for contributing to this project. We really appreciate that you are considering contributing!
 
-#### Table Of Contents
+#### Table of Contents
 
-[Getting Started](#getting-started)
-
-[Contributing](#contributing)
-
-[Code Guidelines](#code-guidelines)
-
-[Code of Conduct](/CODE_OF_CONDUCT.md)
+- [Getting Started](#getting-started)
+- [Contributing](#contributing)
+- [Code Guidelines](#code-guidelines)
+- [Code of Conduct](/CODE_OF_CONDUCT.md)
 
 ## Getting Started
 
