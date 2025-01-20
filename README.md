@@ -25,8 +25,8 @@ This template includes all the scaffolding you need to get started on an OSS rep
   - A contributor covenant/code of conduct badge. (Optional -- If you already have multiple badges and want to reduce clutter, simply including the actual code of conduct is enough!)
   - An explicit link back to the [Apache License 2.0](/LICENSE).
   - An up to date copyright notice.
-- [Changelog](/CHANGELOG.md) placeholder. (Optional -- A changelog is recommended, but it is not required and can diverge in format from the placeholder here included.)
 - [Codeowners](/.github/CODEOWNERS) placeholder. (Optional -- Codeowners is a useful feature, but not all repositories require them.)
+- [Changelog](/CHANGELOG.md) placeholder. (Optional -- A changelog is recommended, but it is not required and can diverge in format from the placeholder here included.)
 
 **Note:** If you created a public repository before this template became available (or you didn't know about it's existence), please include any missing files found here in your repository. There is no need if you have a private repository, but we still recommend you include all of the above scaffolding should the repository ever become public.
 
@@ -73,4 +73,4 @@ Please see the [contributing guide](/CONTRIBUTING.md) for guidelines on how to b
 
 [Apache License, Version 2.0](/LICENSE)
 
-&copy; [F5, Inc.](https://www.f5.com/) 2024
+&copy; [F5, Inc.](https://www.f5.com/) 2025
