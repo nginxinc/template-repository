@@ -17,7 +17,7 @@ This template includes all the scaffolding you need to get started on an OSS rep
 - [Security](/SECURITY.md) guidelines for reporting major vulnerabilities.
 - [Code of Conduct](/CODE_OF_CONDUCT.md).
 - [F5 CLA workflow](/.github/workflows/f5-cla.yml). For more details on the action please check the [F5 CLA signature datastore repository](https://github.com/f5/f5-cla-data).
-- Open Source Security Foundation (OSSF) Scorecard [(implemented via a GitHub Action)](/.github/workflows/ossf_scorecard.yml)
+- Open Source Security Foundation (OSSF) Scorecard [(implemented via a GitHub Action)](/.github/workflows/ossf_scorecard.yml). This workflow only works on public repositories or private repositories using GitHub Advanced Security.
 - [README](/README.md) placeholder. How you structure the README is up to you (although the template provides placeholder sections), but you will need to include:
   - A [repostatus](https://www.repostatus.org/) badge.
   - An OSSF Scorecard badge. (Optional -- Some projects will by their nature have low scores. In such a case you might want to remove this badge!).

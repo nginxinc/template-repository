@@ -16,17 +16,19 @@ jobs:
   analysis:
     name: Scorecard analysis
     runs-on: ubuntu-24.04
+    # Delete the conditional below if you are using the OSSF Scorecard on a private repository.
+    if: ${{ github.event.repository.private == false }}
     permissions:
       # Needed if using Code Scanning alerts.
       security-events: write
       # Needed for GitHub OIDC token if publish_results is true.
       id-token: write
-      # Delete the permissions below if you are using the OSSF Scorecard on a public repository.
-      contents: read
-      actions: read
-      issues: read # To allow GraphQL ListCommits to work
-      pull-requests: read # To allow GraphQL ListCommits to work
-      checks: read # To detect SAST tools
+      # Uncomment the permissions below if you are using the OSSF Scorecard on a private repository.
+      # contents: read
+      # actions: read
+      # issues: read # To allow GraphQL ListCommits to work
+      # pull-requests: read # To allow GraphQL ListCommits to work
+      # checks: read # To detect SAST tools
     steps:
       - name: Check out the codebase
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
