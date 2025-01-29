@@ -10,17 +10,9 @@ Don't know how something in this project works? Curious if this project can achi
 
 This isn't the right place to get support for NGINX specific questions, but the following resources are available below. Thanks for your understanding!
 
-<!--
-To be replaced with Discourse
+### Community Forum
 
-### Community Slack
-
-We have a community [Slack](https://nginxcommunity.slack.com/)!
-
-If you are not a member, click [here](https://community.nginx.org/joinslack) to sign up. (Let us know if the link does not seem to be working at <nginx-oss-community@f5.com>!)
-
-Once you join, check out the `#beginner-questions` and `nginx-users` channels :)
--->
+We have a community [forum](https://community.nginx.org/)! If you have any questions and/or issues, try checking out the [`Troubleshooting`](https://community.nginx.org/c/troubleshooting/8) and [`How do I...?`](https://community.nginx.org/c/how-do-i/9) categories. Both fellow community members and NGINXers might be able to help you! :)
 
 ### Documentation
 
