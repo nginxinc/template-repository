@@ -29,4 +29,6 @@ done
 
 # This command runs only once on GitHub Actions!
 rm -f .github/workflows/rename_template.yml
+rm -f .github/scorecard.yml
+sed -i '1,/^---$/d;/^$/d' README.md
 rm -rf .github/workflows/scripts

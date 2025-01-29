@@ -1,8 +1,8 @@
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/nginxinc/template-repository/badge)](https://securityscorecards.dev/viewer/?uri=github.com/nginxinc/template-repository)
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/nginx/template-repository/badge)](https://securityscorecards.dev/viewer/?uri=github.com/nginx/template-repository)
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
-[![Community Support](https://badgen.net/badge/support/community/cyan?icon=awesome)](https://github.com/nginxinc/template-repository/blob/main/SUPPORT.md)
+[![Community Support](https://badgen.net/badge/support/community/cyan?icon=awesome)](/SUPPORT.md)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](https://github.com/nginxinc/template-repository/main/CODE_OF_CONDUCT.md)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](/CODE_OF_CONDUCT.md)
 
 # NGINX Template Repository
 
@@ -33,23 +33,22 @@ This template includes all the scaffolding you need to get started on an OSS rep
 
 ## How do I use this template?
 
-**DO NOT FORK** -- this template is meant to be used from the **[`Use this template`](https://github.com/nginxinc/template-repository/generate)** feature.
+**DO NOT FORK** -- this template is meant to be used from the **[`Use this template`](https://github.com/nginx/template-repository/generate)** feature.
 
-1. Click on **[`Use this template`](https://github.com/nginxinc/template-repository/generate)**.
+1. Click on **[`Use this template`](https://github.com/nginx/template-repository/generate)**.
 2. Give a name to your project.
 3. Wait until the first run of CI finishes (GitHub Actions will process the template and commit to your new repo).
-4. Clone your new project and tweak any of the placeholders if necessary. Pay special attention to the README!
+4. Clone your new project and tweak any of the placeholders if necessary. Pay special attention to the README! This README section will self-destruct.
 5. Happy coding!
 
 **NOTE**: **WAIT** until the first CI run on GitHub Actions finishes before cloning your new project.
 
 ---
 
-<!--  DELETE THE LINES ABOVE THIS AND WRITE YOUR PROJECT README BELOW -- PLACEHOLDER SECTIONS HAVE BEEN INCLUDED FOR YOUR CONVENIENCE -->
-
 [![Project Status: Concept – Minimal or no implementation has been done yet, or the repository is only intended to be a limited example, demo, or proof-of-concept.](https://www.repostatus.org/badges/latest/concept.svg)](https://www.repostatus.org/#concept)
 [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/{{REPOSITORY_OWNER}}/{{REPOSITORY_URL}}/badge)](https://securityscorecards.dev/viewer/?uri=github.com/{{REPOSITORY_OWNER}}/{{REPOSITORY_URL}})
 [![Community Support](https://badgen.net/badge/support/community/cyan?icon=awesome)](/SUPPORT.md) <!-- [![Commercial Support](https://badgen.net/badge/support/commercial/cyan?icon=awesome)](<Insert URL>) -->
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](/CODE_OF_CONDUCT.md)
 
 # {{REPOSITORY_NAME}}
