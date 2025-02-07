@@ -27,12 +27,16 @@ do
   echo "Renamed $filename"
 done
 
-# This command runs only once on GitHub Actions!
-rm -f .github/workflows/rename_template.yml
+# These commands run only once on GitHub Actions!
+echo "Removing template specific data..."
+# Remove OSSF attestations and F5 specific GitHub Actions workflows
 rm -f .github/scorecard.yml
 if [[ "$GITHUB_REPOSITORY_OWNER" != "devcentral" && "$GITHUB_REPOSITORY_OWNER" != "f5" && "$GITHUB_REPOSITORY_OWNER" != "f5networks" && "$GITHUB_REPOSITORY_OWNER" != "nginx" && "$GITHUB_REPOSITORY_OWNER" != "nginxinc" ]]; then
   rm -f .github/workflows/f5_cla.yml
 fi
-sed -i '1,/^---$/d;/^$/d' README.md
-sed -i '1,/^---$/d;/^$/d' CHANGELOG.md
+# Remove the template instructions from the README and the template's CHANGELOG
+sed -i '1,/^---$/d;1,/^$/d' README.md
+sed -i '1,/^---$/d;1,/^$/d' CHANGELOG.md
+# Remove this script and the GitHub Action workflow using this script
+rm -f .github/workflows/rename_template.yml
 rm -rf .github/workflows/scripts
