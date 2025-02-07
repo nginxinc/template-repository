@@ -9,16 +9,17 @@
 
 ## What is included on this template?
 
-This template includes all the scaffolding you need to get started on an OSS repository that meets the required NGINX criteria:
+This template includes all the scaffolding you need to get started on an OSS repository that meets the required F5 & NGINX criteria:
 
-- [Apache License 2.0](/LICENSE) (required for all NGINX OSS projects).
+- [Apache License 2.0](/LICENSE) -> Required for all NGINX OSS projects unless otherwise determined by the project owner.
+- [F5 CLA GitHub workflow](/.github/workflows/f5_cla.yml) -> For more details on the action please check the [F5 CLA documentation repository](https://github.com/f5/f5-cla).
+-
 - [`.gitignore`](/.gitignore) with some minimal sensible defaults.
 - [Issue](/.github/ISSUE_TEMPLATE) and [PR](/.github//pull_request_template.md) templates.
 - [Contributing](/CONTRIBUTING.md) guidelines.
 - [Support](/SUPPORT.md) guidelines for either community and/or commercial support (uncomment the commercial block if necessary).
 - [Security](/SECURITY.md) guidelines for reporting major vulnerabilities.
 - [Code of Conduct](/CODE_OF_CONDUCT.md).
-- [F5 CLA workflow](/.github/workflows/f5-cla.yml). For more details on the action please check the [F5 CLA signature datastore repository](https://github.com/f5/f5-cla-data).
 - Open Source Security Foundation (OSSF) Scorecard [(implemented via a GitHub Action)](/.github/workflows/ossf_scorecard.yml). This workflow only works on public repositories or private repositories using GitHub Advanced Security.
 - [README](/README.md) placeholder. How you structure the README is up to you (although the template provides placeholder sections), but you will need to include:
   - A [repostatus](https://www.repostatus.org/) badge.
